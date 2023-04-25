@@ -1,0 +1,73 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set global font styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Set the background color */
+  body {
+    background-color: #ffffff;
+  }
+  
+  /* Define the header styles */
+  header {
+    background-color: #960000;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Define the main content styles */
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  /* Define the section styles */
+  section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Define the link styles */
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect to links */
+  a:hover {
+    color: #666;
+  }
+  
+  /* Define the footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Add a subtle animation to buttons */
+  button {
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
